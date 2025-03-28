@@ -4,7 +4,7 @@ Este es un clon de Spotify desarrollado con Vue 3, Vite, Tailwind CSS y Pinia.
 
 ## 🚀 Demo en Producción
 
-[Spotify Clone - Producción](https://spotify-clone-eight-drab.vercel.app/library)
+[Spotify Clone - Producción](https://spotify-clone-eight-drab.vercel.app/)
 
 ## 🛠 Tecnologías Utilizadas
 
