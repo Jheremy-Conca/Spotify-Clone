@@ -1,5 +1,82 @@
-# Vue 3 + Vite
+# Spotify Clone
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este es un clon de Spotify desarrollado con Vue 3, Vite, Tailwind CSS y Pinia.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 🚀 Demo en Producción
+
+[Spotify Clone - Producción](https://spotify-clone-eight-drab.vercel.app/library)
+
+## 🛠 Tecnologías Utilizadas
+
+- Vue 3
+- Vite
+- Tailwind CSS
+- Pinia (Gestión de estado)
+- Vue Router
+- Vue Material Design Icons
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/spotify-clone.git
+   cd spotify-clone
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+## 💻 Uso
+
+### Desarrollo
+
+Ejecuta el servidor de desarrollo con:
+
+```bash
+npm run dev
+```
+
+### Construcción para Producción
+
+Genera los archivos para producción con:
+
+```bash
+npm run build
+```
+
+### Vista Previa
+
+Para ver la aplicación construida localmente:
+
+```bash
+npm run preview
+```
+
+## 📂 Estructura del Proyecto
+
+```
+spotify-clone/
+│-- src/
+│   ├── components/     # Componentes reutilizables
+│   ├── views/          # Vistas principales de la app
+│   ├── store/          # Gestión de estado con Pinia
+│   ├── router/         # Configuración de Vue Router
+│   ├── assets/         # Archivos estáticos (imágenes, estilos)
+│   ├── App.vue         # Componente principal
+│   ├── main.js         # Punto de entrada de la aplicación
+│-- public/             # Archivos públicos
+│-- index.html          # HTML principal
+│-- vite.config.js      # Configuración de Vite
+│-- package.json        # Dependencias y scripts
+│-- README.md           # Documentación del proyecto
+```
+
+## 🔥 Características
+
+- Diseño responsivo con Tailwind CSS.
+- Gestión de estado con Pinia y persistencia.
+- Navegación con Vue Router.
+- Componentes reutilizables.
